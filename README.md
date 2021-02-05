@@ -27,12 +27,12 @@ To correctly identify whether an individual earns more than certain amount or no
 * Capital Gain : Individuals who have substantial amount of capital gain in a year , represents they have assets aside from their primary income
 * Native Country : Individuals who reside or belong to first world countries are more prone to donate and also earn more.
 
-##Models Used
+## Models Used
 * Decision Tree
 * Random Forest 
 * Gradient Boosting 
 
-##Evaluation Metrics Used:
+## Evaluation Metrics Used:
 * Area Under ROC 
 * Area Under PF
 * Accuracy 
