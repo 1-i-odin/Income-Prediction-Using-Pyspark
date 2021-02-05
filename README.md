@@ -20,10 +20,23 @@ It has 35,521 observations and 14 attributes :
 
 To correctly identify whether an individual earns more than certain amount or not, one should be able to identify the features on which Income is most likely to depend:
 
-** Below are some of the factors which I think can affect the Income/Earnings:**
+**Below are some of the factors which I think can affect the Income/Earnings:**
 * Age: Individuals with higher  age are likely to earn more
 * Education: Higher the education level (completed graduation or has doctorate) , more likely to earn greater than $50K a year
 * Marital Status: Individuals who are married are more likely to earn a higher amount of income.
 * Capital Gain : Individuals who have substantial amount of capital gain in a year , represents they have assets aside from their primary income
 * Native Country : Individuals who reside or belong to first world countries are more prone to donate and also earn more.
 
+##Models Used
+* Decision Tree
+* Random Forest 
+* Gradient Boosting 
+
+##Evaluation Metrics Used:
+* Area Under ROC 
+* Area Under PF
+* Accuracy 
+
+**Obtained 84.7 accuracy and 0.9 AUC in Gradient Boost Model**
+
+### Optimised Model Using GridSearchCV to increase accuracy to 85%
