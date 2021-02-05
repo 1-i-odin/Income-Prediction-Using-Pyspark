@@ -16,14 +16,14 @@ Our goal with this implementation is to build a model that accurately predicts i
 ## Data Description :
 Data has been taken from UCI Machine Learning Repository and can be downloaded from here.
 It has 35,521 observations and 14 attributes : 
-[age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,earnings]
+[`age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,earnings`]
 
 To correctly identify whether an individual earns more than certain amount or not, one should be able to identify the features on which Income is most likely to depend:
 
-Below are some of the factors which I think can affect the Income/Earnings:
-Age: Individuals with higher  age are likely to earn more
-Education: Higher the education level (completed graduation or has doctorate) , more likely to earn greater than $50K a year
-Marital Status: Individuals who are married are more likely to earn a higher amount of income.
-Capital Gain : Individuals who have substantial amount of capital gain in a year , represents they have assets aside from their primary income
-Native Country : Individuals who reside or belong to first world countries are more prone to donate and also earn more.
+** Below are some of the factors which I think can affect the Income/Earnings:**
+* Age: Individuals with higher  age are likely to earn more
+* Education: Higher the education level (completed graduation or has doctorate) , more likely to earn greater than $50K a year
+* Marital Status: Individuals who are married are more likely to earn a higher amount of income.
+* Capital Gain : Individuals who have substantial amount of capital gain in a year , represents they have assets aside from their primary income
+* Native Country : Individuals who reside or belong to first world countries are more prone to donate and also earn more.
 
